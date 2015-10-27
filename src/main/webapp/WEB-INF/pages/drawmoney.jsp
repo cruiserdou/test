@@ -99,6 +99,14 @@
             border-bottom: 1px solid #CCC;
             background-color: white;
         }
+
+        #section-line-1 table * {
+            font-size: 0.9em;
+        }
+
+        #section-line-2 table * {
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -117,8 +125,8 @@
                     <form method="post" action="#">
                         <table>
                             <tr>
-                                <th>
-                                    <label>真是姓名</label>
+                                <th style="width: 4.6em">
+                                    <label>真实姓名</label>
                                 </th>
                                 <td>
                                     <input type="text" placeholder="请填写真实姓名">
