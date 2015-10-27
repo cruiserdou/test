@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html lang="zh_CN">
+<html lang="zh-CN">
 <head>
     <title>个人中心</title>
     <meta content="yes" name="apple-mobile-web-app-capable"/>
@@ -11,6 +11,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-weight: 200;
         }
 
         body {
@@ -25,15 +26,9 @@
         .user_img {
             display: block;
             width: 128px;
-            margin: 0.6em auto;
+            margin: 0.5em auto;
             border: 1px solid #607D8B;
             border-radius: 50%;
-        }
-
-        #user_id {
-            color: #607D8B;
-            text-align: center;
-            font-size: 1.2em;
         }
 
         section[class='content'] {
@@ -47,7 +42,6 @@
             background-color: white;
 
             color: #262626;
-            font-weight: bold;
             opacity: .7;
             border: 1px solid #d9d9d9;
             border-radius: 3px;
@@ -79,7 +73,7 @@
 
         input, textarea {
             width: 100%;
-            padding: 0.6em 0.4em;
+            padding: 0.4em 0.4em;
             font-size: 1.1em;
             border: 1px solid #CCC;
             border-radius: 2px;
@@ -91,26 +85,36 @@
             color: white;
         }
 
-        table{
+        table {
             width: 100%;
         }
 
-        th, td{
+        th, td {
             padding: 0.6em 0.2em;
             vertical-align: middle;
+        }
+
+        th {
+            width: 5em;
         }
     </style>
 </head>
 <body>
 <section class="user_info">
     <img class="user_img" src="static/img/user_m.png">
-
-    <p id="user_id">点击更换头像</p>
 </section>
 
 <section class="content">
     <form method="post" action="#">
         <table>
+            <tr>
+                <th>
+                    <label>更换头像</label>
+                </th>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
             <tr>
                 <th>
                     <label>真是姓名</label>

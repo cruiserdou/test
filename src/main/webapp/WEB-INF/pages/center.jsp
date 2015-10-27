@@ -11,6 +11,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-weight: 200;
         }
 
         body {
@@ -49,7 +50,6 @@
             background-color: white;
 
             color: #262626;
-            font-weight: bold;
             opacity: .7;
             border: 1px solid #d9d9d9;
             border-radius: 3px;
