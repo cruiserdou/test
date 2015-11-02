@@ -15,25 +15,25 @@
         }
 
         body {
-            background-color: #F2F2F2;
+            background-color: #F2F2EF;
         }
 
         section[class='user_info'] {
             width: 100%;
             padding: 1em;
-            background-color: #FFCC80;
+            background-color: #FE7043;
         }
 
         .user_img {
             display: block;
             width: 128px;
             margin: 0.6em auto;
-            border: 1px solid #607D8B;
+            border: 1px solid #fff;
             border-radius: 50%;
         }
 
         #user_id {
-            color: #607D8B;
+            color: white;
             text-align: center;
             font-size: 1.2em;
         }
@@ -45,19 +45,17 @@
         section[class='content'] a {
             text-decoration: none;
             display: block;
-            width: 90%;
-            margin: 0.6em auto;
+            width: 100%;
             background-color: white;
 
             color: #262626;
-            opacity: .7;
-            border: 1px solid #d9d9d9;
+            border-top: 1px solid #d9d9d9;
             border-radius: 3px;
             box-shadow: 0 1px 0 rgba(0, 0, 0, .05);
             transition: background-color .218s, border-color .218s, box-shadow .218s;
             background-color: white;
             line-height: 28px;
-            padding: 0.6em 1em;
+            padding: 0.8em 1em;
             -webkit-font-smoothing: antialiased;
             word-wrap: break-word;
             cursor: hand;
@@ -65,6 +63,10 @@
 
         section[class='content'] a:first-child {
             margin-top: 1.6em;
+        }
+
+        section[class='content'] a:last-child {
+            border-bottom: 1px solid #d9d9d9;
         }
 
         section[class='content'] a * {

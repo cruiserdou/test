@@ -80,8 +80,8 @@
         }
 
         input[type='submit'] {
-            background-color: #35A1FF;
-            border: 1px solid #35A1FF;
+            background-color: #FE7043;
+            border: 1px solid #FE7043;
             color: white;
         }
 
