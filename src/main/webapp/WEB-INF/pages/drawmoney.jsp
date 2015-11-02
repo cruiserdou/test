@@ -54,10 +54,11 @@
         }
 
         input[type='submit'] {
-            background-color: #FF9901;
-            border: 1px solid #FF9901;
+            background-color: #FE7043;
+            border: 1px solid #FE7043;
             color: white;
             margin-top: 1em;
+            padding: 0.6em 0.2em;
         }
 
         form {
